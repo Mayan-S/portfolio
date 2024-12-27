@@ -1,0 +1,21 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+}
+  
+.title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+}
+  
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+  

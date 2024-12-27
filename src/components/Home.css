@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+    width: 95vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-image: url('./images/background.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    font-family: 'Lora', serif;
+    font-size: 2.5em;
+    margin: 0em 0px;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+/*Lines 29-44: Chatbox, response to author query. OpenAI [Online]. https://web.chatboxai.app/ (accessed December 23, 2024).*/
+/*Query: "Here is my current code:[...] include a type writer effect on 'at the University of Toronto' that types and untypes in a loop"*/
+
+.typewriter {
+    display: inline;
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.icons {
+    margin: 0em 0px;
+}
+
+.icons img {
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+.icons img:hover {
+    filter: invert(55%);
+}
+
+.links {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-button {
+    font-size: 1.1em;
+    margin: 5px 0px;
+    cursor: pointer;
+    position: relative;
+    padding: 6px 0px;
+    text-decoration: none;
+    color: #333;
+    width: 200px;
+    text-align: center;
+}
+
+.link-button span {
+    position: relative;
+    display: inline-block;
+}
+
+.link-button span::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #333;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+}
+
+.link-button:hover span::after {
+    width: 100%;
+}
