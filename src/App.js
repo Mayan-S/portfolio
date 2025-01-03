@@ -1,5 +1,5 @@
-import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import About from './components/About';
@@ -13,10 +13,26 @@ import CIV100 from './components/courses/CIV100';
 import APS164 from './components/courses/APS164';
 import MAT188 from './components/courses/MAT188';
 import MAT186 from './components/courses/MAT186';
+import ReactGA from 'react-ga4';
+
+function Analytics() {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.initialize('G-70N1HX57PF');
+  }, []);
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
+      <Analytics />
       <div className="App">
         <HamburgerMenu />
         <Routes>
