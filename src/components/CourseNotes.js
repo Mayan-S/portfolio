@@ -16,7 +16,7 @@ const CourseNotes = () => {
       </div>
       <h3>First Year:</h3>
       <div className="semester" onClick={toggleSemester1}>
-        Semester #1
+        Semester #1:
       </div>
       {showSemester1 && (
         <ul>

@@ -12,7 +12,7 @@ const Projects = () => (
           <h3>Coming Soon...</h3>
           <p>Stay tuned for exciting new projects that will be added in the future!</p>
           <div className="project-links">
-            <a href="https://github.com/Mayan-S" className="button">GitHub</a>
+            <a href="https://mayan-s.github.io/portfolio/#/projects" className="button">GitHub</a>
           </div>
           <div className="project-tags">
             <span className="tag">Languages</span>
@@ -28,7 +28,7 @@ const Projects = () => (
           <h3>Coming Soon...</h3>
           <p>Stay tuned for exciting new projects that will be added in the future!</p>
           <div className="project-links">
-            <a href="https://github.com/Mayan-S" className="button">GitHub</a>
+            <a href="https://mayan-s.github.io/portfolio/#/projects" className="button">GitHub</a>
           </div>
           <div className="project-tags">
             <span className="tag">Languages</span>
@@ -44,7 +44,7 @@ const Projects = () => (
           <h3>Coming Soon...</h3>
           <p>Stay tuned for exciting new projects that will be added in the future!</p>
           <div className="project-links">
-            <a href="https://github.com/Mayan-S" className="button">GitHub</a>
+            <a href="https://mayan-s.github.io/portfolio/#/projects" className="button">GitHub</a>
           </div>
           <div className="project-tags">
             <span className="tag">Languages</span>
