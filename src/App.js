@@ -13,6 +13,12 @@ import CIV100 from './components/courses/CIV100';
 import APS164 from './components/courses/APS164';
 import MAT188 from './components/courses/MAT188';
 import MAT186 from './components/courses/MAT186';
+import APS191 from './components/courses/APS191';
+import APS112 from './components/courses/APS112';
+import APS105 from './components/courses/APS105';
+import MAT187 from './components/courses/MAT187';
+import MIE100 from './components/courses/MIE100';
+import ECE110 from './components/courses/ECE110';
 import ReactGA from 'react-ga4';
 
 function Analytics() {
@@ -47,6 +53,12 @@ function App() {
           <Route path="/aps164" element={<APS164 />} />
           <Route path="/mat188" element={<MAT188 />} />
           <Route path="/mat186" element={<MAT186 />} />
+          <Route path="/aps191" element={<APS191 />} />
+          <Route path="/aps112" element={<APS112 />} />
+          <Route path="/aps105" element={<APS105 />} />
+          <Route path="/mat187" element={<MAT187 />} />
+          <Route path="/mie100" element={<MIE100 />} />
+          <Route path="/ece110" element={<ECE110 />} />
         </Routes>
       </div>
     </Router>

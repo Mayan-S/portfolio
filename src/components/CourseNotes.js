@@ -33,12 +33,12 @@ const CourseNotes = () => {
       </div>
       {showSemester2 && (
         <ul>
-          <li><span className="course-link">APS112: Engineering Strategies & Practice II</span></li>
-          <li><span className="course-link">APS105: Computer Fundamentals</span></li>
-          <li><span className="course-link">MAT187: Calculus II</span></li>
-          <li><span className="course-link">MIE100: Dynamics</span></li>
-          <li><span className="course-link">ECE110: Electrical Fundamentals</span></li>
-          <li><span className="course-link">APS191: Intro to Engineering</span></li>
+          <li><Link to="/aps191" className="course-link">APS191: Intro to Engineering</Link></li>
+          <li><Link to="/aps112" className="course-link">APS112: Engineering Strategies & Practice II</Link></li>
+          <li><Link to="/aps105" className="course-link">APS105: Computer Fundamentals</Link></li>
+          <li><Link to="/mat187" className="course-link">MAT187: Calculus II</Link></li>
+          <li><Link to="/mie100" className="course-link">MIE100: Dynamics</Link></li>
+          <li><Link to="/ece110" className="course-link">ECE110: Electrical Fundamentals</Link></li>
         </ul>
       )}
     </div>

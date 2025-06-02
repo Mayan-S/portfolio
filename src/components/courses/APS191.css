@@ -1,0 +1,44 @@
+.aps191-container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 80px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.titleaps191 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    position: relative;
+    width: 361px;
+}
+
+.titleaps191 a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+.titleaps191 a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #333;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+}
+
+.titleaps191 a:hover::after {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}

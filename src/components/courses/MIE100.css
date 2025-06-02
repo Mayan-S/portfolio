@@ -1,0 +1,59 @@
+.mie100-container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 80px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.title100 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    position: relative;
+    width: 235px;
+}
+
+.title100 a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+.title100 a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #333;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+}
+
+.title100 a:hover::after {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.notes-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.notes-button:hover {
+    background-color: #444;
+}
