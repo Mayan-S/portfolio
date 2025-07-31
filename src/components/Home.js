@@ -4,10 +4,6 @@ import './Home.css';
 import linkedinIcon from './images/linkedin.png';
 import githubIcon from './images/github.png';
 
-// Typewriter component for a typing effect
-// Lines 11-42: Chatbox, response to author query. OpenAI [Online]. https://web.chatboxai.app/ (accessed December 23, 2024).
-// Query: "Here is my current code:[...] include a type writer effect on 'at the University of Toronto' that types and untypes in a loop"
-
 const Typewriter = ({ text }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
