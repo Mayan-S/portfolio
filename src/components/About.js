@@ -8,7 +8,7 @@ const About = () => {
         <p>About Me</p>
       </div>
       <p>
-        I’m a second-year engineering student at the University of Toronto.
+        I am an incoming second-year engineering student at the University of Toronto.
       </p>
       <p>
         Under Construction!
